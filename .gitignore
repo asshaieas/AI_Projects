@@ -1,0 +1,54 @@
+# --- Models / weights ---
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.ckpt
+*.weights
+
+# --- Data ---
+o-vs-r-split/
+*.zip
+*.tar
+*.tar.gz
+*.csv
+*.npz
+*.npy
+data/
+dataset/
+datasets/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+venv/
+.venv/
+env/
+ENV/
+
+# --- Environment / secrets ---
+.env
+*.env.local
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Logs / checkpoints from training runs ---
+logs/
+runs/
+wandb/
+checkpoints/
